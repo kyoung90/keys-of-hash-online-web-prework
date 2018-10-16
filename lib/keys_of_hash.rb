@@ -4,5 +4,6 @@ class Hash
     Hash.each do |key, value|
       puts key
       puts value
+    end 
   end
 end
