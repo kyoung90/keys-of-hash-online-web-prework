@@ -6,6 +6,8 @@ class Hash
       if self.has_value?(argument)
         tempArr.push(self.key(argument))
       end 
-    end 
+    end
+    
+    return tempArr
   end
 end
