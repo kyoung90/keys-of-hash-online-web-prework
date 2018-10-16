@@ -3,9 +3,10 @@ class Hash
     # code goes here
     tempArr = []
     arguments.each do |argument|
-      
-      if self.has_value?(argument)
-        tempArr.push(self.key(argument))
+      self.each do |key, value|
+        if value == argument
+          tempArr.push(key)
+        end 
       end 
     end
     
