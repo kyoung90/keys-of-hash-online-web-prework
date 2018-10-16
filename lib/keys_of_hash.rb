@@ -1,8 +1,10 @@
 class Hash
   def keys_of(*arguments)
     # code goes here
-    self.each do |key, value|
-      
+    arguments.each do |argument|
+      self.each do |key, value|
+        
+      end
     end 
   end
 end
