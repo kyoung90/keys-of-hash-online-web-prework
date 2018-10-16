@@ -3,9 +3,8 @@ class Hash
     # code goes here
     tempArr = []
     arguments.each do |argument|
-      self.each do |key, value|
-        if 
-      end
+      if self.has_value?(argument)
+      
     end 
   end
 end
