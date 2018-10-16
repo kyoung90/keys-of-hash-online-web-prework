@@ -4,7 +4,7 @@ class Hash
     tempArr = []
     arguments.each do |argument|
       if self.has_value?(argument)
-        
+        self.key(argument)
       end 
     end 
   end
